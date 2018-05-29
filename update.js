@@ -22,6 +22,7 @@ const update = {
     vm.user = angular.copy(ProfileService.getUserProfile());
     vm.update = (user) => {
       ProfileService.setUserProfile(user);
+      window.location.href = "file:///Users/johnristau/Development/angularLabThree/index.html#!/display"
     }
 
   }]
