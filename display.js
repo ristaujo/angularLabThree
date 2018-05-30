@@ -7,7 +7,7 @@ const display = {
   </section>
     <section id="display">
       <h3>{{ $ctrl.userProfile.name }}</h3>
-      <p>{{ $ctrl.userProfile.contact }}</p>
+      <p class="contact" >{{ $ctrl.userProfile.contact }}</p>
       <p>{{ $ctrl.userProfile.bio}}</p>
       <button><a href="#!/update">Edit</a></button>
     </section>
